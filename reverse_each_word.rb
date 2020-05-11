@@ -8,3 +8,14 @@ def reverse_each_word(words)
   return new_array.join(" ")
   
 end
+
+
+def reverse_each_word_collect(words)
+  array = words.split(" ")
+  array.collect do |word|
+    array.push(word.reverse)
+  end
+  
+  return array.join(" ")
+  
+end

@@ -1,3 +1,4 @@
+=begin
 def reverse_each_word(words)
   array = words.split(" ")
   new_array = []
@@ -8,9 +9,9 @@ def reverse_each_word(words)
   return new_array.join(" ")
   
 end
+=end
 
-
-def reverse_each_word_collect(words)
+def reverse_each_word(words)
   array = words.split(" ")
   new_array = []
   array.collect do |word|
